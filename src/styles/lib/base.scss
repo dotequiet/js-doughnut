@@ -1,0 +1,17 @@
+.clearfix:after, .clearfix:before {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.width-visual {
+  width: 1124px;
+  margin: 0 auto;
+}

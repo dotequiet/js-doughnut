@@ -8,7 +8,6 @@ const svgCircle = class{
       text: 'text'
     }
     Object.assign(this.params, arg)
-    let svg = document.querySelector(`${this.params.svgTarget}`)
     this.track = document.querySelector(`.${this.params.track}`)
     this.progress = document.querySelector(`.${this.params.progress}`)
     this.text = document.querySelector(`${this.params.text}`)
